@@ -9,6 +9,7 @@ body{
 
 .principal{
     background-color: #cecece;
+    padding: 30px;
 }
 
 h1{
@@ -34,4 +35,16 @@ em strong{
 
 .beneficios{
     background: white;
+    padding: 20px;
+}
+
+.imagembeneficios{
+    width: 50%;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
 }
