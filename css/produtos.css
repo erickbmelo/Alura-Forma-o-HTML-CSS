@@ -39,10 +39,11 @@ nav a{
     text-align: center;
     width: 30%;
     vertical-align: top;
-    background-color: #CCCCCC;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 2px solid black; /*borda unificada: largura, style, cor*/
+    border-radius: 10px;
 }
 
 .produtos h2{
@@ -52,9 +53,11 @@ nav a{
 
 .produto-descricao{
     font-size: 18px;
+    margin-top: 10px;
 }
 
 .produto-preco{
     font-size: 22px;
     font-weight: bold;
+    margin-top: 10px;
 }
