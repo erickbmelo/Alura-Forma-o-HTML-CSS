@@ -22,6 +22,11 @@ nav a{
     text-decoration: none;
 }
 
+nav a:hover{
+    color: #C78C79;
+    text-decoration: underline;
+}
+
 .caixa{
     width: 940px;
     position: relative;
@@ -44,6 +49,19 @@ nav a{
     box-sizing: border-box;
     border: 2px solid black; /*borda unificada: largura, style, cor*/
     border-radius: 10px;
+}
+
+.produtos li:hover{
+    border-color: #C78C19;
+    font-size: 40px;
+}
+
+.produtos li:active{
+    border-color: #088C19;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
 }
 
 .produtos h2{
