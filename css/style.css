@@ -166,6 +166,18 @@ td, th {
     clear: left; /*limpa o float*/
 }
 
+.titulo-principal:first-letter{
+    font-weight: bold;
+}
+
+.titulo-principal:before{
+    content: "[ "
+}
+
+.titulo-principal:after{
+    content: " ]";
+}
+
 .principal{
     padding: 3em 0;
     background-color: #FEFEFE;
@@ -228,6 +240,10 @@ td, th {
 
 .itens:first-child{
     font-weight: bold;
+}
+
+.itens:before{
+    content: "✭";
 }
 
 .imagem-beneficios{
